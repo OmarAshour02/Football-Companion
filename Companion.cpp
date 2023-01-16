@@ -663,7 +663,6 @@ void League::addMatch(const Match& match) {
     int pos1(0),pos2(0),curr(0);
     for(auto &x : leagueStats){
         string currName = x.getName();
-//        cout << currName << '\n';
         for(auto & x : currName)
             x = tolower(x);
         if (currName == first)
@@ -751,7 +750,6 @@ void Competition::eraseTeam(Team& club) {
 }
 
 
-// Why it doesn't work
 void Cup::setRounds(){
     rounds.assign((int)log2(teams.size()),vector<Match>());
 }
