@@ -1,7 +1,7 @@
 #include "Companion.h"
 
 League laliga, bundesliga, seriea, premiereleague, ligue1;
-Cup worldCup, euros, copaAmerica;
+Cup worldCup, euros, copaAmeric;
 
 Team makeClub(string leagueName) {
     cout << "Enter club's name : ";
